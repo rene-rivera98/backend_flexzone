@@ -47,8 +47,8 @@ class Server {
     }
 
     listen() {
-        this.app.listen(this.port, () => {
-            console.log('servidor corriendo en el puerto', this.port);
+        this.app.listen(8080, () => {
+            console.log('servidor corriendo en el puerto', 8080);
         })
     }
 }
